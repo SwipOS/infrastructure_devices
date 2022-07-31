@@ -1,4 +1,5 @@
-# Community maintained devices list
+#
+# Official devices list
 #
 # This will be parsed by our configs platform for initial setup
 # and configuration with jenkins.
@@ -24,11 +25,7 @@
 # Example:
 # ! z2_plus userdebug msm8996
 # This will put z2_plus on node3 even if we mention msm8996 to be on different node.
+# REMEMBER: <chipset> can be the platform family chipset or exact device chipset as
+# it is only used for assigning similar devices to a similar nodes and nothing else.
 #
 
-! cepheus userdebug sm8150
-^ r5x userdebug sm6150
-! tucana userdebug sm6150
-^ vince userdebug msm8953
-! Z01R userdebug sdm845
-^ X01AD userdebug sdm632
